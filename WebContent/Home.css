@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(WebImages/background.jpg);
+	background-size : cover;
+	background-position: center;
+	height:70vh;
+	font-family: sans-serif;
+}
+.logo img{
+	margin:40px;
+	margin-left: 60px;
+	width: 100px;
+	height: auto;
+}
+.title {
+	position: absolute;
+	top:35%;
+	left:30%;
+	transform: translate(-50%-50%);
+	width:600px;
+	height: auto;
+	text-align: center;
+}
+.title h1{
+	color: #fff;
+	font-size: 50px;
+	font-style: italic;
+	margin-bottom:0;
+}
+.title h3{
+	color: #fff;
+	font-size: 30px;
+	margin-top: 0;
+}
+.button{
+	position: absolute;
+	top:55%;
+	left:41%;
+	transform: translate(-50%-50%);
+	margin-top: 10px;
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
