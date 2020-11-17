@@ -8,8 +8,8 @@ body{
 	font-family:sans-serif;
 }
 .logo img{
+	float:right;
 	margin:30px;
-	margin-left: 1300px;
 	width: 150px;
 	height: auto;
 }
@@ -17,7 +17,7 @@ body{
 	width: 450px;
 	height: 950px;
 	color: #8B008B;
-	top: -70%;
+	top: -50%;
 	left: 70%;
 	padding: 60px;
 	position: absolute;
